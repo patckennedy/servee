@@ -28,7 +28,15 @@ const Header = () => {
 const RestaurantCard = () => {
     return (
         <div className="res-card">
+            <img
+                className="res-logo"
+                src="https://assets.bonappetit.com/photos/61ba78e6ca92b3cc74fd3299/master/w_1600,c_limit/THB.jpg"
+                alt="res-logo"
+            />
             <h3>Meghana Foods</h3>
+            <h4>Biryani, North Indian, Asian</h4>
+            <h4>4.5 Stars</h4>
+            <h4>38 minutes</h4>
         </div>
     );
 };
