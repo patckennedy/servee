@@ -1,6 +1,6 @@
 import ReactDOM from 'react-dom/client';
 
-// Header component
+// Header component -------------------------------------------------------------------------------------------------
 const Header = () => {
     return (
         <div className="header">
@@ -24,7 +24,7 @@ const Header = () => {
     );
 };
 
-// RestaurantCard
+// RestaurantCard Component ----------------------------------------------------------------------------------------
 const RestaurantCard = ({ name, cuisines, rating, eta, image }) => {
     return (
         <div className="res-card">
@@ -36,8 +36,7 @@ const RestaurantCard = ({ name, cuisines, rating, eta, image }) => {
         </div>
     );
 };
-
-// Body Section
+// Body Component -------------------------------------------------------------------------------------------------
 const Body = () => {
     // Array of restaurant dummy data
     const restaurantList = [
@@ -86,7 +85,7 @@ const Body = () => {
     );
 };
 
-// AppLayout
+// AppLayout --------------------------------------------------------------------------------------------------------
 const AppLayout = () => {
     return (
         <div className="app">
@@ -95,6 +94,6 @@ const AppLayout = () => {
         </div>
     );
 };
-
+// Rendering the App
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<AppLayout />);
